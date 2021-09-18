@@ -13,4 +13,14 @@
 .logo {
   font-weight: 700;
   font-size: 26px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.activeLink {
+  text-decoration: underline;
 }

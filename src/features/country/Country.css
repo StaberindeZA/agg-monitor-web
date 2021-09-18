@@ -1,0 +1,4 @@
+.countryContainer {
+  display: grid;
+  grid-template-rows: 150px 30px 50px 1fr;
+}

@@ -1,8 +1,9 @@
 import React from "react";
+import "./Country.css";
 
 export function Country() {
   return (
-    <div>
+    <div className="countryContainer">
       <div>
         Country flag
       </div>
@@ -11,6 +12,9 @@ export function Country() {
       </div>
       <div>
         Counter
+      </div>
+      <div>
+        More Info
       </div>
     </div>
   )

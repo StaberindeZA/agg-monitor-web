@@ -1,0 +1,5 @@
+.mainCountryContainer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
