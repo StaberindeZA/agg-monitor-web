@@ -1,4 +1,5 @@
 import React from "react";
+import DetailedInfo from "../detailedinfo/DetailedInfo";
 import "./Country.css";
 
 export function Country() {
@@ -13,9 +14,7 @@ export function Country() {
       <div>
         Counter
       </div>
-      <div>
-        More Info
-      </div>
+      <DetailedInfo />
     </div>
   )
 }
