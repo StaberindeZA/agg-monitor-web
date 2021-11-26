@@ -4,7 +4,7 @@ import "./Country.css";
 
 export function Country() {
   return (
-    <div className="countryContainer">
+    <div className="countryContainer bg-pink-200">
       <div>
         Country flag
       </div>
