@@ -1,9 +1,25 @@
 import React from "react";
 
-export default function DetailedInfo () {
+interface DetailedInfoProps {
+  date: string;
+  title: string;
+  summary: string;
+  URL: string;
+}
+
+export default function DetailedInfo (props: DetailedInfoProps ) {
+  const { date, title, summary, URL } = props;
   return (
     <div>
-      Detailed info displayed here
+      <div>
+        {title} {date}
+      </div>
+      <div>
+        {summary}
+      </div>
+      <div>
+        <a href={URL}>More</a>
+      </div>
     </div>
   )
 }

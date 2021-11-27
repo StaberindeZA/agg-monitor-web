@@ -1,4 +1,5 @@
 import React from 'react';
+import { Countries } from '../features/countries/Countries';
 import { Country } from '../features/country/Country';
 import "./Pages.css"
 
@@ -10,8 +11,9 @@ export default function Main () {
         <sub>Comparing country aggression by date</sub>
       </div>
       <div className="mainCountryContainer">
-        <Country />
-        <Country />
+        {/* <Country name="hello" flagUrl="" counter={0}/>
+        <Country name="again" flagUrl="" counter={3}/> */}
+        <Countries />
       </div>
     </div>
   )
