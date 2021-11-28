@@ -5,7 +5,7 @@ const tempData = {
   countries: [
     {
       name: 'United States',
-      flagUrl: './images/us_flag.svg',
+      flagUrl: 'agg-monitor-web/images/us_flag.svg',
       counter: 4,
       detailedInfo: [
         {
@@ -33,7 +33,7 @@ const tempData = {
     },
     {
       name: 'China',
-      flagUrl: './images/china_flag.svg',
+      flagUrl: 'agg-monitor-web/images/china_flag.svg',
       counter: 23,
       detailedInfo: [
         {
