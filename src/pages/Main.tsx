@@ -1,18 +1,17 @@
 import React from 'react';
 import { Countries } from '../features/countries/Countries';
-import { Country } from '../features/country/Country';
-import "./Pages.css"
 
 export default function Main () {
   return (
-    <div className="mainContainer">
-      <div>
-        <h1>Aggression Monitor</h1>
-        <sub>Comparing country aggression by date</sub>
+    <div className="">
+      <div className="text-left ml-24 mt-14 mb-14">
+        <h1 className="text-5xl font-bold mb-3">
+          Aggression Monitor
+          <span className="text-sm font-normal ml-8">Last updated {new Date(Date.now()).toUTCString()}</span>
+        </h1>
+        <sub className="text-lg">Comparing country aggression by date</sub>
       </div>
-      <div className="mainCountryContainer">
-        {/* <Country name="hello" flagUrl="" counter={0}/>
-        <Country name="again" flagUrl="" counter={3}/> */}
+      <div className="m-24">
         <Countries />
       </div>
     </div>

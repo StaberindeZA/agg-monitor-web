@@ -1,7 +1,6 @@
 .header {
   display: flex;
   flex-flow: row nowrap;
-  background-color: red;
   color: white;
   justify-content: flex-start;
   gap: 30px;
@@ -11,8 +10,6 @@
 }
 
 .logo {
-  font-weight: 700;
-  font-size: 26px;
   text-decoration: none;
 }
 
